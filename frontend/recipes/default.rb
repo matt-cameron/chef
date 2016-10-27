@@ -23,5 +23,5 @@ end
 git "/var/www/html" do
   repository "git://github.com/mattsymc/simplehtml.git"
   reference "master"
-  action :pull
+  action :sync
 end
